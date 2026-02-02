@@ -25,6 +25,7 @@ class Calculator {
         }
     }
 
+    //Main function
     public static void main(String[] args) {
         // will call all functions later
     }
