@@ -17,7 +17,7 @@ class Calculator {
            if (b == 0){
                 throw new ArithmeticException("Division by zero");
               } else {
-                return a / b;   
+                return a/b;   
            }
         }catch(ArithmeticException e){
             System.out.println(e.getMessage());
