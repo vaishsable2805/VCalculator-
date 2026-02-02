@@ -5,7 +5,7 @@ class Calculator {
     }
 
     static int sub(int a, int b) {
-        return 0;
+        return a - b;
     }
 
     static int mul(int a, int b) {
