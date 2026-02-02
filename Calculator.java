@@ -27,6 +27,12 @@ class Calculator {
 
     //Main function
     public static void main(String[] args) {
-        // will call all functions later
-    }
+    int a = 10;
+    int b = 5;
+
+    System.out.println("Addition: " + add(a, b));
+    System.out.println("Subtraction: " + sub(a, b));
+    System.out.println("Multiplication: " + mul(a, b));
+    System.out.println("Division: " + div(a, b));
+}
 }
